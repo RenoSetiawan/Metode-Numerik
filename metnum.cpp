@@ -117,5 +117,9 @@ int pangkat(int p, int q){
 }
 
 void Fungsi(int p, int q){
-	
+	int i, hasil;
+	for(i = p; i <= q; i++) {
+		hasil = (2*(i*i)) - ((4*i) + 1);
+	}
+
 }
